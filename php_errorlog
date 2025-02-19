@@ -1,0 +1,369 @@
+[06-Feb-2025 12:13:32 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`dbrkuqmurjxzr9`.`pins`, CONSTRAINT `pins_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`)) in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php:55
+Stack trace:
+#0 /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php(55): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php on line 55
+[06-Feb-2025 12:13:33 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`dbrkuqmurjxzr9`.`pins`, CONSTRAINT `pins_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`)) in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php:55
+Stack trace:
+#0 /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php(55): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php on line 55
+[06-Feb-2025 12:20:46 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'dbrkuqmurjxzr9.boards' doesn't exist in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php:105
+Stack trace:
+#0 /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php(105): mysqli->query('SELECT p.*, u.u...')
+#1 {main}
+  thrown in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php on line 105
+[06-Feb-2025 12:20:53 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'dbrkuqmurjxzr9.boards' doesn't exist in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php:105
+Stack trace:
+#0 /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php(105): mysqli->query('SELECT p.*, u.u...')
+#1 {main}
+  thrown in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php on line 105
+[06-Feb-2025 12:23:07 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'p.board_id' in 'on clause' in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php:180
+Stack trace:
+#0 /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php(180): mysqli->query('SELECT p.*, u.u...')
+#1 {main}
+  thrown in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php on line 180
+[06-Feb-2025 12:25:08 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php on line 487
+[06-Feb-2025 12:25:19 UTC] PHP Warning:  Undefined variable $user_info in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php on line 487
+[06-Feb-2025 12:25:19 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php on line 487
+[06-Feb-2025 12:26:26 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'bio' in 'field list' in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php:145
+Stack trace:
+#0 /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php(145): mysqli->prepare('UPDATE users SE...')
+#1 {main}
+  thrown in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php on line 145
+[06-Feb-2025 12:26:33 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'bio' in 'field list' in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php:145
+Stack trace:
+#0 /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php(145): mysqli->prepare('UPDATE users SE...')
+#1 {main}
+  thrown in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php on line 145
+[06-Feb-2025 12:27:18 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'bio' in 'field list' in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php:145
+Stack trace:
+#0 /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php(145): mysqli->prepare('UPDATE users SE...')
+#1 {main}
+  thrown in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php on line 145
+[06-Feb-2025 12:27:54 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'description' in 'field list' in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php:106
+Stack trace:
+#0 /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php(106): mysqli->prepare('INSERT INTO pin...')
+#1 {main}
+  thrown in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php on line 106
+[06-Feb-2025 12:28:32 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'description' in 'field list' in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php:106
+Stack trace:
+#0 /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php(106): mysqli->prepare('INSERT INTO pin...')
+#1 {main}
+  thrown in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php on line 106
+[06-Feb-2025 12:31:22 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php on line 487
+[06-Feb-2025 12:31:26 UTC] PHP Warning:  Undefined variable $user_info in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php on line 487
+[06-Feb-2025 12:31:26 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php on line 487
+[11-Feb-2025 11:25:43 UTC] PHP Warning:  Undefined variable $user_info in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php on line 487
+[11-Feb-2025 11:25:43 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php on line 487
+[11-Feb-2025 11:25:50 UTC] PHP Warning:  Undefined variable $user_info in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php on line 487
+[11-Feb-2025 11:25:50 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php on line 487
+[11-Feb-2025 11:26:15 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'hi' for key 'users.username' in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php:76
+Stack trace:
+#0 /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php(76): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php on line 76
+[11-Feb-2025 11:26:15 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'hi' for key 'users.username' in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php:76
+Stack trace:
+#0 /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php(76): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php on line 76
+[11-Feb-2025 11:26:15 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'hi' for key 'users.username' in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php:76
+Stack trace:
+#0 /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php(76): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php on line 76
+[11-Feb-2025 11:26:15 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'hi' for key 'users.username' in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php:76
+Stack trace:
+#0 /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php(76): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php on line 76
+[11-Feb-2025 11:26:15 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'hi' for key 'users.username' in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php:76
+Stack trace:
+#0 /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php(76): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php on line 76
+[11-Feb-2025 11:26:16 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'hi' for key 'users.username' in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php:76
+Stack trace:
+#0 /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php(76): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php on line 76
+[11-Feb-2025 11:26:16 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'hi' for key 'users.username' in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php:76
+Stack trace:
+#0 /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php(76): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php on line 76
+[11-Feb-2025 11:26:16 UTC] PHP Warning:  Undefined variable $user_info in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php on line 487
+[11-Feb-2025 11:26:16 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php on line 487
+[11-Feb-2025 11:26:16 UTC] PHP Warning:  Undefined variable $user_info in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php on line 487
+[11-Feb-2025 11:26:16 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php on line 487
+[11-Feb-2025 11:26:16 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'hi' for key 'users.username' in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php:76
+Stack trace:
+#0 /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php(76): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php on line 76
+[11-Feb-2025 11:26:16 UTC] PHP Warning:  Undefined variable $user_info in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php on line 487
+[11-Feb-2025 11:26:16 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php on line 487
+[11-Feb-2025 11:26:16 UTC] PHP Warning:  Undefined variable $user_info in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php on line 487
+[11-Feb-2025 11:26:16 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php on line 487
+[11-Feb-2025 11:26:16 UTC] PHP Warning:  Undefined variable $user_info in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php on line 487
+[11-Feb-2025 11:26:16 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php on line 487
+[11-Feb-2025 11:26:16 UTC] PHP Warning:  Undefined variable $user_info in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php on line 487
+[11-Feb-2025 11:26:16 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php on line 487
+[11-Feb-2025 11:26:16 UTC] PHP Warning:  Undefined variable $user_info in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php on line 487
+[11-Feb-2025 11:26:16 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php on line 487
+[11-Feb-2025 11:26:16 UTC] PHP Warning:  Undefined variable $user_info in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php on line 487
+[11-Feb-2025 11:26:16 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php on line 487
+[11-Feb-2025 11:29:15 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`dbrkuqmurjxzr9`.`pins`, CONSTRAINT `pins_ibfk_2` FOREIGN KEY (`board_id`) REFERENCES `boards` (`id`) ON DELETE CASCADE) in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php:108
+Stack trace:
+#0 /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php(108): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php on line 108
+[11-Feb-2025 11:29:16 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`dbrkuqmurjxzr9`.`pins`, CONSTRAINT `pins_ibfk_2` FOREIGN KEY (`board_id`) REFERENCES `boards` (`id`) ON DELETE CASCADE) in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php:108
+Stack trace:
+#0 /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php(108): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php on line 108
+[11-Feb-2025 11:29:16 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`dbrkuqmurjxzr9`.`pins`, CONSTRAINT `pins_ibfk_2` FOREIGN KEY (`board_id`) REFERENCES `boards` (`id`) ON DELETE CASCADE) in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php:108
+Stack trace:
+#0 /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php(108): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php on line 108
+[11-Feb-2025 11:29:16 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`dbrkuqmurjxzr9`.`pins`, CONSTRAINT `pins_ibfk_2` FOREIGN KEY (`board_id`) REFERENCES `boards` (`id`) ON DELETE CASCADE) in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php:108
+Stack trace:
+#0 /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php(108): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php on line 108
+[11-Feb-2025 11:29:16 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`dbrkuqmurjxzr9`.`pins`, CONSTRAINT `pins_ibfk_2` FOREIGN KEY (`board_id`) REFERENCES `boards` (`id`) ON DELETE CASCADE) in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php:108
+Stack trace:
+#0 /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php(108): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php on line 108
+[11-Feb-2025 11:29:16 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`dbrkuqmurjxzr9`.`pins`, CONSTRAINT `pins_ibfk_2` FOREIGN KEY (`board_id`) REFERENCES `boards` (`id`) ON DELETE CASCADE) in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php:108
+Stack trace:
+#0 /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php(108): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php on line 108
+[11-Feb-2025 11:29:16 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`dbrkuqmurjxzr9`.`pins`, CONSTRAINT `pins_ibfk_2` FOREIGN KEY (`board_id`) REFERENCES `boards` (`id`) ON DELETE CASCADE) in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php:108
+Stack trace:
+#0 /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php(108): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php on line 108
+[11-Feb-2025 11:29:16 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`dbrkuqmurjxzr9`.`pins`, CONSTRAINT `pins_ibfk_2` FOREIGN KEY (`board_id`) REFERENCES `boards` (`id`) ON DELETE CASCADE) in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php:108
+Stack trace:
+#0 /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php(108): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php on line 108
+[11-Feb-2025 11:29:16 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`dbrkuqmurjxzr9`.`pins`, CONSTRAINT `pins_ibfk_2` FOREIGN KEY (`board_id`) REFERENCES `boards` (`id`) ON DELETE CASCADE) in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php:108
+Stack trace:
+#0 /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php(108): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php on line 108
+[11-Feb-2025 11:29:16 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`dbrkuqmurjxzr9`.`pins`, CONSTRAINT `pins_ibfk_2` FOREIGN KEY (`board_id`) REFERENCES `boards` (`id`) ON DELETE CASCADE) in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php:108
+Stack trace:
+#0 /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php(108): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php on line 108
+[11-Feb-2025 11:29:16 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`dbrkuqmurjxzr9`.`pins`, CONSTRAINT `pins_ibfk_2` FOREIGN KEY (`board_id`) REFERENCES `boards` (`id`) ON DELETE CASCADE) in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php:108
+Stack trace:
+#0 /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php(108): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php on line 108
+[11-Feb-2025 11:29:16 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`dbrkuqmurjxzr9`.`pins`, CONSTRAINT `pins_ibfk_2` FOREIGN KEY (`board_id`) REFERENCES `boards` (`id`) ON DELETE CASCADE) in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php:108
+Stack trace:
+#0 /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php(108): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php on line 108
+[11-Feb-2025 11:29:16 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`dbrkuqmurjxzr9`.`pins`, CONSTRAINT `pins_ibfk_2` FOREIGN KEY (`board_id`) REFERENCES `boards` (`id`) ON DELETE CASCADE) in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php:108
+Stack trace:
+#0 /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php(108): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php on line 108
+[11-Feb-2025 11:29:16 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`dbrkuqmurjxzr9`.`pins`, CONSTRAINT `pins_ibfk_2` FOREIGN KEY (`board_id`) REFERENCES `boards` (`id`) ON DELETE CASCADE) in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php:108
+Stack trace:
+#0 /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php(108): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php on line 108
+[11-Feb-2025 11:29:16 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`dbrkuqmurjxzr9`.`pins`, CONSTRAINT `pins_ibfk_2` FOREIGN KEY (`board_id`) REFERENCES `boards` (`id`) ON DELETE CASCADE) in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php:108
+Stack trace:
+#0 /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php(108): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php on line 108
+[11-Feb-2025 11:29:16 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`dbrkuqmurjxzr9`.`pins`, CONSTRAINT `pins_ibfk_2` FOREIGN KEY (`board_id`) REFERENCES `boards` (`id`) ON DELETE CASCADE) in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php:108
+Stack trace:
+#0 /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php(108): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php on line 108
+[11-Feb-2025 11:29:16 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`dbrkuqmurjxzr9`.`pins`, CONSTRAINT `pins_ibfk_2` FOREIGN KEY (`board_id`) REFERENCES `boards` (`id`) ON DELETE CASCADE) in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php:108
+Stack trace:
+#0 /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php(108): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php on line 108
+[11-Feb-2025 11:29:16 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`dbrkuqmurjxzr9`.`pins`, CONSTRAINT `pins_ibfk_2` FOREIGN KEY (`board_id`) REFERENCES `boards` (`id`) ON DELETE CASCADE) in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php:108
+Stack trace:
+#0 /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php(108): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php on line 108
+[11-Feb-2025 11:29:16 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`dbrkuqmurjxzr9`.`pins`, CONSTRAINT `pins_ibfk_2` FOREIGN KEY (`board_id`) REFERENCES `boards` (`id`) ON DELETE CASCADE) in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php:108
+Stack trace:
+#0 /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php(108): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php on line 108
+[11-Feb-2025 11:29:16 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`dbrkuqmurjxzr9`.`pins`, CONSTRAINT `pins_ibfk_2` FOREIGN KEY (`board_id`) REFERENCES `boards` (`id`) ON DELETE CASCADE) in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php:108
+Stack trace:
+#0 /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php(108): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php on line 108
+[11-Feb-2025 11:29:16 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`dbrkuqmurjxzr9`.`pins`, CONSTRAINT `pins_ibfk_2` FOREIGN KEY (`board_id`) REFERENCES `boards` (`id`) ON DELETE CASCADE) in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php:108
+Stack trace:
+#0 /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php(108): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php on line 108
+[11-Feb-2025 11:29:16 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`dbrkuqmurjxzr9`.`pins`, CONSTRAINT `pins_ibfk_2` FOREIGN KEY (`board_id`) REFERENCES `boards` (`id`) ON DELETE CASCADE) in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php:108
+Stack trace:
+#0 /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php(108): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php on line 108
+[11-Feb-2025 11:29:16 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`dbrkuqmurjxzr9`.`pins`, CONSTRAINT `pins_ibfk_2` FOREIGN KEY (`board_id`) REFERENCES `boards` (`id`) ON DELETE CASCADE) in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php:108
+Stack trace:
+#0 /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php(108): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php on line 108
+[11-Feb-2025 11:29:16 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`dbrkuqmurjxzr9`.`pins`, CONSTRAINT `pins_ibfk_2` FOREIGN KEY (`board_id`) REFERENCES `boards` (`id`) ON DELETE CASCADE) in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php:108
+Stack trace:
+#0 /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php(108): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php on line 108
+[11-Feb-2025 11:30:35 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`dbrkuqmurjxzr9`.`pins`, CONSTRAINT `pins_ibfk_2` FOREIGN KEY (`board_id`) REFERENCES `boards` (`id`) ON DELETE CASCADE) in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php:108
+Stack trace:
+#0 /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php(108): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php on line 108
+[11-Feb-2025 11:30:35 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`dbrkuqmurjxzr9`.`pins`, CONSTRAINT `pins_ibfk_2` FOREIGN KEY (`board_id`) REFERENCES `boards` (`id`) ON DELETE CASCADE) in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php:108
+Stack trace:
+#0 /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php(108): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php on line 108
+[11-Feb-2025 11:30:35 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`dbrkuqmurjxzr9`.`pins`, CONSTRAINT `pins_ibfk_2` FOREIGN KEY (`board_id`) REFERENCES `boards` (`id`) ON DELETE CASCADE) in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php:108
+Stack trace:
+#0 /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php(108): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php on line 108
+[11-Feb-2025 11:30:35 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`dbrkuqmurjxzr9`.`pins`, CONSTRAINT `pins_ibfk_2` FOREIGN KEY (`board_id`) REFERENCES `boards` (`id`) ON DELETE CASCADE) in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php:108
+Stack trace:
+#0 /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php(108): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php on line 108
+[11-Feb-2025 11:30:35 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`dbrkuqmurjxzr9`.`pins`, CONSTRAINT `pins_ibfk_2` FOREIGN KEY (`board_id`) REFERENCES `boards` (`id`) ON DELETE CASCADE) in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php:108
+Stack trace:
+#0 /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php(108): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php on line 108
+[11-Feb-2025 11:30:35 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`dbrkuqmurjxzr9`.`pins`, CONSTRAINT `pins_ibfk_2` FOREIGN KEY (`board_id`) REFERENCES `boards` (`id`) ON DELETE CASCADE) in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php:108
+Stack trace:
+#0 /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php(108): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php on line 108
+[11-Feb-2025 11:30:35 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`dbrkuqmurjxzr9`.`pins`, CONSTRAINT `pins_ibfk_2` FOREIGN KEY (`board_id`) REFERENCES `boards` (`id`) ON DELETE CASCADE) in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php:108
+Stack trace:
+#0 /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php(108): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php on line 108
+[11-Feb-2025 11:30:35 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`dbrkuqmurjxzr9`.`pins`, CONSTRAINT `pins_ibfk_2` FOREIGN KEY (`board_id`) REFERENCES `boards` (`id`) ON DELETE CASCADE) in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php:108
+Stack trace:
+#0 /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php(108): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php on line 108
+[11-Feb-2025 11:46:33 UTC] PHP Warning:  Undefined array key "board_name" in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/user_profile.php on line 19
+[11-Feb-2025 11:46:33 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/user_profile.php on line 19
+[11-Feb-2025 11:46:33 UTC] PHP Warning:  Undefined array key "board_name" in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/user_profile.php on line 19
+[11-Feb-2025 11:46:33 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/user_profile.php on line 19
+[11-Feb-2025 11:46:33 UTC] PHP Warning:  Undefined array key "board_name" in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/user_profile.php on line 19
+[11-Feb-2025 11:46:33 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/user_profile.php on line 19
+[11-Feb-2025 11:46:33 UTC] PHP Warning:  Undefined array key "board_name" in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/user_profile.php on line 19
+[11-Feb-2025 11:46:33 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/user_profile.php on line 19
+[11-Feb-2025 11:46:33 UTC] PHP Warning:  Undefined array key "board_name" in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/user_profile.php on line 19
+[11-Feb-2025 11:46:33 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/user_profile.php on line 19
+[11-Feb-2025 11:46:33 UTC] PHP Warning:  Undefined array key "board_name" in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/user_profile.php on line 19
+[11-Feb-2025 11:46:33 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/user_profile.php on line 19
+[11-Feb-2025 11:46:33 UTC] PHP Warning:  Undefined array key "board_name" in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/user_profile.php on line 19
+[11-Feb-2025 11:46:33 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/user_profile.php on line 19
+[11-Feb-2025 11:46:33 UTC] PHP Warning:  Undefined array key "board_name" in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/user_profile.php on line 19
+[11-Feb-2025 11:46:33 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/user_profile.php on line 19
+[11-Feb-2025 11:46:33 UTC] PHP Warning:  Undefined array key "board_name" in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/user_profile.php on line 19
+[11-Feb-2025 11:46:33 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/user_profile.php on line 19
+[11-Feb-2025 11:46:33 UTC] PHP Warning:  Undefined array key "board_name" in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/user_profile.php on line 19
+[11-Feb-2025 11:46:33 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/user_profile.php on line 19
+[11-Feb-2025 11:46:53 UTC] PHP Warning:  Undefined variable $user_boards in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php on line 563
+[11-Feb-2025 11:46:53 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on null in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php:563
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php on line 563
+[11-Feb-2025 11:47:11 UTC] PHP Warning:  Undefined variable $user_boards in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php on line 563
+[11-Feb-2025 11:47:11 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on null in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php:563
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php on line 563
+[11-Feb-2025 11:50:31 UTC] PHP Warning:  Undefined variable $user_boards in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php on line 563
+[11-Feb-2025 11:50:31 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on null in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php:563
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php on line 563
+[11-Feb-2025 11:50:47 UTC] PHP Warning:  Undefined variable $user_boards in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php on line 563
+[11-Feb-2025 11:50:47 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on null in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php:563
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php on line 563
+[11-Feb-2025 11:51:02 UTC] PHP Warning:  Undefined variable $user_boards in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php on line 563
+[11-Feb-2025 11:51:02 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on null in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php:563
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php on line 563
+[11-Feb-2025 11:51:06 UTC] PHP Warning:  Undefined variable $user_boards in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php on line 563
+[11-Feb-2025 11:51:06 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on null in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php:563
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php on line 563
+[11-Feb-2025 11:51:09 UTC] PHP Warning:  Undefined variable $user_boards in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php on line 563
+[11-Feb-2025 11:51:09 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on null in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php:563
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php on line 563
+[11-Feb-2025 11:55:23 UTC] PHP Warning:  move_uploaded_file(uploads/profiles/67ab3aabb4089_الحمدللہ اللّہ نے سارے جسم کے اعضاء صحیح سلامت دیئے، کوئی بھئی معذوری نہیں دی _تھوڑا دماغ خراب ہے اس کے لئے معذرت چاہتا ہوں. Rehan Allahwala.png): Failed to open stream: File name too long in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php on line 207
+[11-Feb-2025 11:55:23 UTC] PHP Warning:  move_uploaded_file(): Unable to move &quot;/tmp/phpsuU7pX&quot; to &quot;uploads/profiles/67ab3aabb4089_الحمدللہ اللّہ نے سارے جسم کے اعضاء صحیح سلامت دیئے، کوئی بھئی معذوری نہیں دی _تھوڑا دماغ خراب ہے اس کے لئے معذرت چاہتا ہوں. Rehan Allahwala.png&quot; in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php on line 207
+[11-Feb-2025 11:55:23 UTC] PHP Warning:  move_uploaded_file(uploads/profiles/67ab3aabe1f3f_الحمدللہ اللّہ نے سارے جسم کے اعضاء صحیح سلامت دیئے، کوئی بھئی معذوری نہیں دی _تھوڑا دماغ خراب ہے اس کے لئے معذرت چاہتا ہوں. Rehan Allahwala.png): Failed to open stream: File name too long in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php on line 207
+[11-Feb-2025 11:55:23 UTC] PHP Warning:  move_uploaded_file(): Unable to move &quot;/tmp/phpND2ECn&quot; to &quot;uploads/profiles/67ab3aabe1f3f_الحمدللہ اللّہ نے سارے جسم کے اعضاء صحیح سلامت دیئے، کوئی بھئی معذوری نہیں دی _تھوڑا دماغ خراب ہے اس کے لئے معذرت چاہتا ہوں. Rehan Allahwala.png&quot; in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php on line 207
+[11-Feb-2025 11:55:23 UTC] PHP Warning:  move_uploaded_file(uploads/profiles/67ab3aabe248e_الحمدللہ اللّہ نے سارے جسم کے اعضاء صحیح سلامت دیئے، کوئی بھئی معذوری نہیں دی _تھوڑا دماغ خراب ہے اس کے لئے معذرت چاہتا ہوں. Rehan Allahwala.png): Failed to open stream: File name too long in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php on line 207
+[11-Feb-2025 11:55:23 UTC] PHP Warning:  move_uploaded_file(): Unable to move &quot;/tmp/php7v8M4a&quot; to &quot;uploads/profiles/67ab3aabe248e_الحمدللہ اللّہ نے سارے جسم کے اعضاء صحیح سلامت دیئے، کوئی بھئی معذوری نہیں دی _تھوڑا دماغ خراب ہے اس کے لئے معذرت چاہتا ہوں. Rehan Allahwala.png&quot; in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php on line 207
+[11-Feb-2025 11:55:23 UTC] PHP Warning:  move_uploaded_file(uploads/profiles/67ab3aabe2a6c_الحمدللہ اللّہ نے سارے جسم کے اعضاء صحیح سلامت دیئے، کوئی بھئی معذوری نہیں دی _تھوڑا دماغ خراب ہے اس کے لئے معذرت چاہتا ہوں. Rehan Allahwala.png): Failed to open stream: File name too long in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php on line 207
+[11-Feb-2025 11:55:23 UTC] PHP Warning:  move_uploaded_file(): Unable to move &quot;/tmp/phpg12WWa&quot; to &quot;uploads/profiles/67ab3aabe2a6c_الحمدللہ اللّہ نے سارے جسم کے اعضاء صحیح سلامت دیئے، کوئی بھئی معذوری نہیں دی _تھوڑا دماغ خراب ہے اس کے لئے معذرت چاہتا ہوں. Rehan Allahwala.png&quot; in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php on line 207
+[11-Feb-2025 11:55:23 UTC] PHP Warning:  move_uploaded_file(uploads/profiles/67ab3aabe2eb1_الحمدللہ اللّہ نے سارے جسم کے اعضاء صحیح سلامت دیئے، کوئی بھئی معذوری نہیں دی _تھوڑا دماغ خراب ہے اس کے لئے معذرت چاہتا ہوں. Rehan Allahwala.png): Failed to open stream: File name too long in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php on line 207
+[11-Feb-2025 11:55:23 UTC] PHP Warning:  move_uploaded_file(): Unable to move &quot;/tmp/phpAxqgLz&quot; to &quot;uploads/profiles/67ab3aabe2eb1_الحمدللہ اللّہ نے سارے جسم کے اعضاء صحیح سلامت دیئے، کوئی بھئی معذوری نہیں دی _تھوڑا دماغ خراب ہے اس کے لئے معذرت چاہتا ہوں. Rehan Allahwala.png&quot; in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php on line 207
+[11-Feb-2025 11:55:23 UTC] PHP Warning:  move_uploaded_file(uploads/profiles/67ab3aabe328a_الحمدللہ اللّہ نے سارے جسم کے اعضاء صحیح سلامت دیئے، کوئی بھئی معذوری نہیں دی _تھوڑا دماغ خراب ہے اس کے لئے معذرت چاہتا ہوں. Rehan Allahwala.png): Failed to open stream: File name too long in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php on line 207
+[11-Feb-2025 11:55:23 UTC] PHP Warning:  move_uploaded_file(): Unable to move &quot;/tmp/phpvI3ugq&quot; to &quot;uploads/profiles/67ab3aabe328a_الحمدللہ اللّہ نے سارے جسم کے اعضاء صحیح سلامت دیئے، کوئی بھئی معذوری نہیں دی _تھوڑا دماغ خراب ہے اس کے لئے معذرت چاہتا ہوں. Rehan Allahwala.png&quot; in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php on line 207
+[11-Feb-2025 11:55:26 UTC] PHP Warning:  move_uploaded_file(uploads/profiles/67ab3aae41ec3_الحمدللہ اللّہ نے سارے جسم کے اعضاء صحیح سلامت دیئے، کوئی بھئی معذوری نہیں دی _تھوڑا دماغ خراب ہے اس کے لئے معذرت چاہتا ہوں. Rehan Allahwala.png): Failed to open stream: File name too long in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php on line 207
+[11-Feb-2025 11:55:26 UTC] PHP Warning:  move_uploaded_file(): Unable to move &quot;/tmp/phpw4o3Gh&quot; to &quot;uploads/profiles/67ab3aae41ec3_الحمدللہ اللّہ نے سارے جسم کے اعضاء صحیح سلامت دیئے، کوئی بھئی معذوری نہیں دی _تھوڑا دماغ خراب ہے اس کے لئے معذرت چاہتا ہوں. Rehan Allahwala.png&quot; in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php on line 207
+[11-Feb-2025 11:55:30 UTC] PHP Warning:  move_uploaded_file(uploads/profiles/67ab3ab2efaa9_الحمدللہ اللّہ نے سارے جسم کے اعضاء صحیح سلامت دیئے، کوئی بھئی معذوری نہیں دی _تھوڑا دماغ خراب ہے اس کے لئے معذرت چاہتا ہوں. Rehan Allahwala.png): Failed to open stream: File name too long in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php on line 207
+[11-Feb-2025 11:55:30 UTC] PHP Warning:  move_uploaded_file(): Unable to move &quot;/tmp/phpcIrqJ0&quot; to &quot;uploads/profiles/67ab3ab2efaa9_الحمدللہ اللّہ نے سارے جسم کے اعضاء صحیح سلامت دیئے، کوئی بھئی معذوری نہیں دی _تھوڑا دماغ خراب ہے اس کے لئے معذرت چاہتا ہوں. Rehan Allahwala.png&quot; in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php on line 207
+[11-Feb-2025 11:55:30 UTC] PHP Warning:  move_uploaded_file(uploads/profiles/67ab3ab2eff57_الحمدللہ اللّہ نے سارے جسم کے اعضاء صحیح سلامت دیئے، کوئی بھئی معذوری نہیں دی _تھوڑا دماغ خراب ہے اس کے لئے معذرت چاہتا ہوں. Rehan Allahwala.png): Failed to open stream: File name too long in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php on line 207
+[11-Feb-2025 11:55:30 UTC] PHP Warning:  move_uploaded_file(): Unable to move &quot;/tmp/phpPlyh5y&quot; to &quot;uploads/profiles/67ab3ab2eff57_الحمدللہ اللّہ نے سارے جسم کے اعضاء صحیح سلامت دیئے، کوئی بھئی معذوری نہیں دی _تھوڑا دماغ خراب ہے اس کے لئے معذرت چاہتا ہوں. Rehan Allahwala.png&quot; in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php on line 207
+[11-Feb-2025 11:55:31 UTC] PHP Warning:  move_uploaded_file(uploads/profiles/67ab3ab33bc0e_الحمدللہ اللّہ نے سارے جسم کے اعضاء صحیح سلامت دیئے، کوئی بھئی معذوری نہیں دی _تھوڑا دماغ خراب ہے اس کے لئے معذرت چاہتا ہوں. Rehan Allahwala.png): Failed to open stream: File name too long in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php on line 207
+[11-Feb-2025 11:55:31 UTC] PHP Warning:  move_uploaded_file(): Unable to move &quot;/tmp/phpGOxRG5&quot; to &quot;uploads/profiles/67ab3ab33bc0e_الحمدللہ اللّہ نے سارے جسم کے اعضاء صحیح سلامت دیئے، کوئی بھئی معذوری نہیں دی _تھوڑا دماغ خراب ہے اس کے لئے معذرت چاہتا ہوں. Rehan Allahwala.png&quot; in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php on line 207
+[11-Feb-2025 11:55:31 UTC] PHP Warning:  move_uploaded_file(uploads/profiles/67ab3ab33bfee_الحمدللہ اللّہ نے سارے جسم کے اعضاء صحیح سلامت دیئے، کوئی بھئی معذوری نہیں دی _تھوڑا دماغ خراب ہے اس کے لئے معذرت چاہتا ہوں. Rehan Allahwala.png): Failed to open stream: File name too long in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php on line 207
+[11-Feb-2025 11:55:31 UTC] PHP Warning:  move_uploaded_file(): Unable to move &quot;/tmp/php9Daw77&quot; to &quot;uploads/profiles/67ab3ab33bfee_الحمدللہ اللّہ نے سارے جسم کے اعضاء صحیح سلامت دیئے، کوئی بھئی معذوری نہیں دی _تھوڑا دماغ خراب ہے اس کے لئے معذرت چاہتا ہوں. Rehan Allahwala.png&quot; in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php on line 207
+[15-Feb-2025 11:51:58 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php on line 543
+[15-Feb-2025 11:51:58 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php on line 543
+[15-Feb-2025 11:52:12 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php on line 543
+[15-Feb-2025 11:52:12 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php on line 543
+[15-Feb-2025 11:52:42 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`dbrkuqmurjxzr9`.`boards`, CONSTRAINT `boards_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE CASCADE) in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php:165
+Stack trace:
+#0 /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php(165): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php on line 165
+[15-Feb-2025 11:53:26 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`dbrkuqmurjxzr9`.`likes`, CONSTRAINT `likes_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE CASCADE) in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php:191
+Stack trace:
+#0 /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php(191): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php on line 191
+[15-Feb-2025 11:53:38 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php on line 543
+[15-Feb-2025 11:53:38 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/rsoa72.rehan.school/public_html/Pinterest/index.php on line 543
